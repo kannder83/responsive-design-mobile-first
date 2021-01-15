@@ -10,3 +10,5 @@ font-family: 'Inter', sans-serif;
 Estilos Base.
 Maquetación header.
 Implementando BEM.
+Uso de Linear-gradient.
+Boton flotante.
