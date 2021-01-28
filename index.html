@@ -4,16 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:930px)" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/batata.svg"
+      type="image/x-icon"
+    />
+
+    <title>Batatabit.co</title>
   </head>
   <body>
     <header>
-      <img src="./assets/img/logo.svg" alt="" />
+      <img loading="lazy" src="./assets/img/logo.svg" alt="" />
       <div class="header--title-container">
         <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
         <p>
@@ -67,6 +74,33 @@
                 <b>Actualizado:</b
                 ><span id="fechaActual">19 de Julio 23:45</span>
               </p>
+            </div>
+          </div>
+          <div class="main-currency-table">
+            <p class="currency-table--title">Monedas</p>
+            <div class="currency-table--container">
+              <table>
+                <tr>
+                  <td class="table__top-left">Bitcoin</td>
+                  <td class="table__top-right table__right">
+                    $1.96<span class="down"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Etherium</td>
+                  <td class="table__right">$0.07<span class="up"></span></td>
+                </tr>
+                <tr>
+                  <td>Ripple</td>
+                  <td class="table__right">$2.17<span class="down"></span></td>
+                </tr>
+                <tr>
+                  <td class="table__bottom-left">Stellar</td>
+                  <td class="table__bottom-right table__right">
+                    $4.96<span class="down"></span>
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
         </section>
@@ -158,7 +192,22 @@
         </section>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="left">
+        <ul>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Crunchbase</a></li>
+          <li><a href="#">Hackernews</a></li>
+        </ul>
+      </section>
+      <section class="right">
+        <img
+          loading="lazy"
+          src="./assets/img/logo-footer.svg"
+          alt="Logo de Batabit 2020"
+        />
+      </section>
+    </footer>
     <script>
       let fecha = new Date();
       fecha.getDate;
